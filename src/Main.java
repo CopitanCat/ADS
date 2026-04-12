@@ -53,6 +53,7 @@ private static void testMyLinkedList() {
     for (String v : list) System.out.println(v);
 
 }
+
     static public void main(String[] args){
         testArrayList();
         testMyLinkedList();
