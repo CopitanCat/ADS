@@ -1,6 +1,7 @@
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-public class MyArrayList<T> implements MyList {
+public class MyArrayList<T> implements MyList{
     private final Object[] data;
     private int size;
     public MyArrayList(){
@@ -26,12 +27,34 @@ public class MyArrayList<T> implements MyList {
     }
 
     @Override
+    public void add(Object element, int index) {
+        for (int i = size; i > index; i--) {
+            data[i] = data[i - 1];
+        }
+        data[index] = element;
+        size++;
+    }
+
+    @Override
     public int size() {
         return this.size;
     }
 
     @Override
-    public Iterator iterator() {
-        return null;
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            private int cursor = 0;
+
+            @Override
+            public boolean hasNext() {
+                return cursor < size;
+            }
+
+            @Override
+            public T next() {
+                return (T) data[cursor++];
+            }
+        };
     }
+
 }
