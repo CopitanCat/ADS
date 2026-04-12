@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15233873-7e96-473c-b9cb-af28613afe56" name="Changes" comment="finish the MyArrayList and MyLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/MyMinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
+    <list default="true" id="15233873-7e96-473c-b9cb-af28613afe56" name="Changes" comment="Stack, Queue and minHeap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <workItem from="1775568854451" duration="2992000" />
       <workItem from="1775628218744" duration="4656000" />
       <workItem from="1775899726120" duration="687000" />
-      <workItem from="1775977330313" duration="6179000" />
+      <workItem from="1775977330313" duration="6941000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -126,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775981415806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stack, Queue and minHeap">
+      <option name="closed" value="true" />
+      <created>1775983602482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775983602482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +162,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="MyList" />
     <MESSAGE value="finish the MyArrayList and MyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish the MyArrayList and MyLinkedList" />
+    <MESSAGE value="Stack, Queue and minHeap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack, Queue and minHeap" />
   </component>
 </project>
