@@ -1,8 +1,7 @@
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 public class MyArrayList<T> implements MyList<T>{
-    private final Object[] data;
+    private Object[] data;
     private int size;
     public MyArrayList(){
         data = new Object[10];
@@ -16,6 +15,14 @@ public class MyArrayList<T> implements MyList<T>{
         size = 0;
     }
 
+    private void grow() {
+        int newCapacity = Math.max(data.length * 2, 10);
+        Object[] newData = new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
+    }
     @Override
     public T get(int index) {
         return (T) this.data[index];
@@ -23,11 +30,13 @@ public class MyArrayList<T> implements MyList<T>{
 
     @Override
     public void add(Object element) {
+        if (size == data.length) grow();
         this.data[this.size++] = element;
     }
 
     @Override
     public void add(Object element, int index) {
+        if (size == data.length) grow();
         for (int i = size; i > index; i--) {
             data[i] = data[i - 1];
         }
