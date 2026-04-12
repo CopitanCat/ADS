@@ -41,6 +41,19 @@ public class MyArrayList<T> implements MyList{
     }
 
     @Override
+    public void remove(int index) {
+        for (int i = index; i < size - 1; i++) {
+            data[i] = data[i + 1];
+        }
+        data[--size] = null;
+    }
+
+    @Override
+    public void set(int index, Object item) {
+       data[index] = item;
+    }
+
+    @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
             private int cursor = 0;

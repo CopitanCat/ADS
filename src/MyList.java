@@ -3,4 +3,6 @@ public interface MyList<T> extends Iterable<T>{
     void add(T element);
     void add(T element , int index);
     int size();
+    void remove(int index);
+    void set(int index, T item);
 }
