@@ -21,6 +21,10 @@ public class Main {
 
         for (int v : list) System.out.println(v);
 
+        // auto-grow (add > 10 elements)
+        MyArrayList<Integer> growList = new MyArrayList<>();
+        for (int i = 0; i < 20; i++) growList.add(i);
+        for (int i : growList) System.out.println(i);
 
 }
 
