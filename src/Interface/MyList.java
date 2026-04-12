@@ -1,3 +1,5 @@
+package Interface;
+
 public interface MyList<T> extends Iterable<T>{
     //getting element by index
     T get(int index);

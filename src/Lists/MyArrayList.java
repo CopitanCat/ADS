@@ -1,6 +1,10 @@
+package Lists;
+
+import Interface.MyList;
+
 import java.util.Iterator;
 
-public class MyArrayList<T> implements MyList<T>{
+public class MyArrayList<T> implements MyList<T> {
     //List of data
     private Object[] data;
     //Size of list

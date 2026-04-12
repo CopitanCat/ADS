@@ -1,3 +1,7 @@
+package Lists;
+
+import Interface.MyList;
+
 import java.util.Iterator;
 
 public class MyLinkedList<T> implements MyList<T> {
@@ -37,7 +41,7 @@ public class MyLinkedList<T> implements MyList<T> {
     // Size of list
     private int size;
 
-    MyLinkedList(){
+    public MyLinkedList(){
         head = null;
         tail = null;
         size = 0 ;

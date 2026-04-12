@@ -1,3 +1,6 @@
+import Lists.MyArrayList;
+import Lists.MyLinkedList;
+
 public class Main {
 
     private static void testArrayList(){

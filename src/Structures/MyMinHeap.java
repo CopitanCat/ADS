@@ -1,3 +1,7 @@
+package Structures;
+
+import Lists.MyArrayList;
+
 public class MyMinHeap<T extends Comparable<T>>{
     private final MyArrayList<T> heap;
 

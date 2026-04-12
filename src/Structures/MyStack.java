@@ -1,3 +1,7 @@
+package Structures;
+
+import Lists.MyLinkedList;
+
 public class MyStack<T> {
     private MyLinkedList<T> list;
 
