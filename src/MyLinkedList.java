@@ -81,6 +81,36 @@ public class MyLinkedList<T> implements MyList<T> {
     }
 
     @Override
+    public void remove(int index) {
+        MyNode<T> node = nodeAt(index);
+        T item = node.item;
+        MyNode<T> prevNode = node.prev;
+        MyNode<T> nextNode = node.next;
+
+        if (prevNode == null) {
+            head = nextNode; // removed head
+        } else {
+            prevNode.next = nextNode;
+            node.prev = null; // help GC, prevent loops
+        }
+
+        if (nextNode == null) {
+            tail = prevNode; // removed tail
+        } else {
+            nextNode.prev = prevNode;
+            node.next = null; // help GC, prevent loops
+        }
+
+        node.item = null; // help GC
+        size--;
+    }
+
+    @Override
+    public void set(int index, T item) {
+        nodeAt(index).item = item;
+    }
+
+    @Override
     public int size() {
         return this.size;
     }
