@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15233873-7e96-473c-b9cb-af28613afe56" name="Changes" comment="auto Grow in arraylist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="15233873-7e96-473c-b9cb-af28613afe56" name="Changes" comment="Comments in code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -35,12 +32,12 @@
     &quot;assignee&quot;: &quot;CopitanCat&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/CopitanCat/ADS&quot;,
-    &quot;accountId&quot;: &quot;a6ca935d-03c7-46a2-b75f-a61c3c833a66&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:CopitanCat/ADS.git",
+    "accountId": "a6ca935d-03c7-46a2-b75f-a61c3c833a66"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -99,7 +96,7 @@
       <workItem from="1775568854451" duration="2992000" />
       <workItem from="1775628218744" duration="4656000" />
       <workItem from="1775899726120" duration="687000" />
-      <workItem from="1775977330313" duration="9419000" />
+      <workItem from="1775977330313" duration="9739000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -149,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775984891630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Comments in code">
+      <option name="closed" value="true" />
+      <created>1775986952492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775986952492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +190,7 @@
     <MESSAGE value="Stack, Queue and minHeap" />
     <MESSAGE value="test Lists" />
     <MESSAGE value="auto Grow in arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="auto Grow in arraylist" />
+    <MESSAGE value="Comments in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments in code" />
   </component>
 </project>
