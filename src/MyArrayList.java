@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class MyArrayList<T> implements MyList{
+public class MyArrayList<T> implements MyList<T>{
     private final Object[] data;
     private int size;
     public MyArrayList(){

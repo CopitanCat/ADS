@@ -127,7 +127,7 @@ public class MyLinkedList<T> implements MyList<T> {
             public T next() {
                 T elment = current.item;
                 current = current.next;
-                return (T) elment;
+                return elment;
             }
         };
     }
